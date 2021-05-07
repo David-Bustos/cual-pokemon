@@ -1,5 +1,5 @@
 body {
-    background-image: url("darkpattern.png");
+    background-image: url("img/darkpattern.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -7,7 +7,7 @@ body {
 }
 /* FIXME:  pokedex fija -> position: sticky */
 .pokedex{
-    background-image: url("pokedex.jpg");
+    background-image: url("img/pokedex.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 130px;
