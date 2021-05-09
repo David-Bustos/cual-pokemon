@@ -1,3 +1,5 @@
+/* *{outline: 1px dotted white; } */
+
 body {
     background-image: url("img/darkpattern.png");
     background-repeat: no-repeat;
@@ -5,13 +7,14 @@ body {
     background-size: 100%;
     color: ghostwhite;
 }
-/* FIXME:  pokedex fija -> position: sticky */
 .pokedex{
     background-image: url("img/pokedex.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 130px;
-    position: sticky;
+    position: sticky !important;
+    top: 50px;
+    max-height: 500px;
 }
 .screen {
     background: radial-gradient(circle,MediumAquaMarine, darkcyan);
